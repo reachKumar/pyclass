@@ -1,1 +1,3 @@
-/pyclass_dev
+/.vs
+*.settings
+/pyclass/pyclass_env
