@@ -1,0 +1,101 @@
+------------------- env ---
+
+pyton -m venv venv
+
+py -m venv pyclass_env
+pyclass_env\Scripts\activate
+
+------------------- pkgs ---
+
+python -m pip install openpyxl
+python -m pip install pandas
+python -m pip install numpy
+python.exe -m pip install Jupyter
+python.exe -m pip install pandas
+python.exe -m pip install matplotlib
+
+snowflake src -- pip install snowflake-connector-python
+SSAS Cube -- pip install pyadomd
+
+------------------- upgrade ---
+
+
+python -m pip install --upgrade pip
+
+------------------- url --- 
+
+config -- https://www.tutorialandexample.com/how-to-write-a-configuration-file-in-python
+
+https://pypi.org/project/pylib-helpers/
+
+https://www.geeksforgeeks.org/python-logging-test-output-to-a-file/
+
+https://www.geeksforgeeks.org/python-add-logging-to-python-libraries/
+
+
+----logging ----
+
+https://realpython.com/python-logging/
+
+https://docs.python.org/3/howto/logging.html
+
+
+------Pandas,Jupyter,matplotlib ---------
+
+pip install -r setup.txt
+pip install -r setup-dev.txt
+python.exe -m pipx install pipenv 
+pip install pipenv
+
+cp -R tutorials/ colleague
+pinenv sync
+pinenv sync -d
+pinenv shell
+
+
+pip install tempfile2
+--------------------------------------------------- - pip ---
+
+https://www.kaggle.com/datasets/benoitfavier/immobilier-france
+
+
+------Pandas,Jupyter,matplotlib ---------
+
+
+
+from matplotlib import pyplot as plt
+plt.plot([1,2,3],[1,4,9])
+plt.xlabel('Sales Month')
+plt.ylabel('Sales Rev')
+Plt.title('Sales Rev')
+plt.show()
+-----------
+pipx ensurepath
+pipx install flake8
+ls .local/bin
+
+--------------------------------------
+https://docs.python.org/3/library/
+
+pypi.org
+
+pip3 install requests
+
+pip
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+python get-pip.py
+
+-------------
+
+python3 -m venv venv
+
+import requests
+
+response=requests.get('http://api.open-notify.org/astros.json')
+json=response.json()
+
+print(json)
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py

@@ -1,3 +1,5 @@
 /.vs
 *.settings
 /pyclass/pyclass_env
+*.config
+*.ini
